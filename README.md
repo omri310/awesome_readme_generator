@@ -2,7 +2,7 @@
 # awesome_readme_generator
 
 ## Description
-readme generator
+node js backend application
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,18 +16,18 @@ readme generator
 git clone & npm i
 
 ## Usage
-open
+open source
 
 ## License
-[![License](https://img.shields.io/badge/license-undefined-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPL-blue.svg)](LICENSE)
 This application is covered under the licence
-undefined 
+GPL 
 
 ## Contributors
-omri 
+omri
 
 ## Tests
-manual testing
+manual
 
 
 ## Questions
