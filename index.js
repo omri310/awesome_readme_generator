@@ -53,10 +53,10 @@ inquirer
 
     {
       type: 'list',
-      name: 'licence',
+      name: 'license',
       choices: ['MIT','ISC','GPL','APACHE','NONE'],
       message: 'Enter the licence of your project:',
-    },
+    }
     // Add more prompts for installation, usage, contribution, tests, license, GitHub username, and email address
     // The prompts should match the user stories you provided.
   ])
