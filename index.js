@@ -14,6 +14,49 @@ inquirer
       name: 'description',
       message: 'Enter a description for your project:',
     },
+
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Enter the usage of your project:',
+    },
+
+    {
+      type: 'input',
+      name: 'contributors',
+      message: 'Enter the contributors of your project:',
+    },
+
+    {
+      type: 'input',
+      name: 'installation',
+      message: 'Enter the installation of your project:',
+    },
+
+    {
+      type: 'input',
+      name: 'testingrequirement',
+      message: 'Enter the testingrequirement of your project:',
+    },
+
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Enter the github username of your project:',
+    },
+
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Enter the email of your project:',
+    },
+
+    {
+      type: 'list',
+      name: 'licence',
+      choices: ['MIT','ISC','GPL','APACHE','NONE'],
+      message: 'Enter the licence of your project:',
+    },
     // Add more prompts for installation, usage, contribution, tests, license, GitHub username, and email address
     // The prompts should match the user stories you provided.
   ])

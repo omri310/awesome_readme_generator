@@ -15,20 +15,22 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installation
-Write your installation instructions here.
+${data.installation}
 
 ## Usage
-Write usage information here.
+${data.usage}
 
 ## License
 [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)](LICENSE)
-This application is covered under the ${data.license} license.
+This application is covered under the licence
+${data.license} 
 
-## Contributing
-Write contribution guidelines here.
+## Contributors
+${data.contributors}
 
 ## Tests
-Write test instructions here.
+${data.testingrequirement}
+
 
 ## Questions
 For additional questions, please contact ${data.email}.
