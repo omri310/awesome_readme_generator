@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-
+const fs = require("fs")
 // Prompt the user for input
 inquirer
   .prompt([
@@ -64,7 +64,13 @@ inquirer
     const readmeContent = generateMarkdown(answers);
     // You can either save the content to a file or log it to the console.
     console.log(readmeContent);
-  })
+    return readmeContent
+  }).then(data =>{
+    fs.writeFileSync("README.md",data, (err) => {
+      if(err) throw err;
+    })
+  }
+  )
   .catch((error) => {
     console.error('Error occurred:', error);
   });
